@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Error 404 | Page not found</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel='icon' type='image/x-icon' href="<%= process.env.NODE_URL+ 'assets/images/favicon.ico'%>" />
+    <link rel="stylesheet" href="<%= process.env.NODE_URL+ 'assets/css/common.min.css'%>" />
+</head>
+
+<body>
+
+    <div class="loader position-fixed align-items-center justify-content-center top-0 start-0 h-100 w-100 gap-2 bg-white">
+        <span class="rounded-3 p-2"></span>
+        <span class="rounded-3 p-2"></span>
+        <span class="rounded-3 p-2"></span>
+    </div>
+
+    <main class="row justify-content-center align-items-center vh-100 mx-0">
+        <div class="col-md-8 col-lg-6 text-center">
+            <h1 class="text-uppercase fw-bolder text-primary display-3">404<small
+                    class="h-50 bg-dark opacity-50 p-1 mx-3 d-inline-block"></small>Page not found</h1>
+            <h3 class="opacity-75">The page you requested is currently unavailable. Please try again later.</h3>
+            <div class="compass-container my-5 mx-auto">
+                <?xml version="1.0" encoding="utf-8"?>
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 320 320"
+                    style="enable-background:new 0 0 320 320;" xml:space="preserve">
+                    <style type="text/css">
+                        .st0 {
+                            fill: #E2E8F0;
+                        }
+
+                        .st1 {
+                            fill: url(#SVGID_1_);
+                        }
+
+                        .st2 {
+                            clip-path: url(#SVGID_2_);
+                        }
+
+                        .st3 {
+                            fill: #607D8B;
+                        }
+
+                        .st4 {
+                            fill: #30313D;
+                        }
+
+                        .st5 {
+                            fill: #414552;
+                        }
+
+                        .st6 {
+                            fill: #F5F6F8;
+                        }
+                    </style>
+                    <g id="Base">
+                        <circle class="st0" cx="160" cy="160" r="160" />
+                        <radialGradient id="SVGID_1_" cx="160" cy="160" r="126.6133" gradientUnits="userSpaceOnUse">
+                            <stop offset="0" style="stop-color:#FFFFFF" />
+                            <stop offset="1" style="stop-color:#F9FAFC" />
+                        </radialGradient>
+                        <path class="st1"
+                            d="M160,286.6c-69.8,0-126.6-56.8-126.6-126.6S90.2,33.4,160,33.4S286.6,90.2,286.6,160S229.8,286.6,160,286.6z" />
+                        <g>
+                            <defs>
+                                <path id="SVGID_5_" d="M160,286.6c-69.8,0-126.6-56.8-126.6-126.6S90.2,33.4,160,33.4S286.6,90.2,286.6,160
+				S229.8,286.6,160,286.6z" />
+                            </defs>
+                            <clipPath id="SVGID_2_">
+                                <use xlink:href="#SVGID_5_" style="overflow:visible;" />
+                            </clipPath>
+                            <g class="st2">
+                                <path class="st3"
+                                    d="M160,50.5c-3.2,0-5.8-2.6-5.8-5.8V0h11.6v44.7C165.8,47.9,163.2,50.5,160,50.5z" />
+                                <path class="st3"
+                                    d="M44.7,153.8c3.2,0,5.8,2.6,5.8,5.8c0,3.2-2.6,5.8-5.8,5.8H0v-11.6L44.7,153.8L44.7,153.8z" />
+                                <path class="st3"
+                                    d="M154.2,320v-44.7c0-3.2,2.6-5.8,5.8-5.8c3.2,0,5.8,2.6,5.8,5.8V320H154.2z" />
+                                <path class="st3"
+                                    d="M275.3,153.8H320v11.6h-44.7c-3.2,0-5.8-2.6-5.8-5.8C269.5,156.4,272.1,153.8,275.3,153.8z" />
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Spinner">
+                        <g>
+                            <path class="st4"
+                                d="M270,50l-108.6,79.8c-8.2-0.4-16.6,2.6-22.8,8.8l4.1,38.7l38.7,4.1c6.3-6.3,9.2-14.6,8.8-22.8L270,50z" />
+                            <path class="st5"
+                                d="M138.6,138.6c-6.3,6.3-9.2,14.6-8.8,22.8L50,270l108.6-79.8c8.2,0.4,16.6-2.6,22.8-8.8L138.6,138.6z" />
+                        </g>
+                        <circle class="st6" cx="160" cy="160" r="8.6" />
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+<script src="<%= process.env.NODE_URL + 'assets/js/jquery.min.js'%>"></script>
+<script src="<%= process.env.NODE_URL + 'assets/js/bootstrap.min.js'%>"></script>
+<script src="<%= process.env.NODE_URL + 'assets/js/common.min.js'%>"></script>
+<script>
+    var box = $("#Spinner");
+    var boxCenter = [
+        box.offset().left + box.width() / 2,
+        box.offset().top + box.height() / 2
+    ];
+
+    $(document).mousemove(function (e) {
+        var angle =
+            Math.atan2(e.pageX - boxCenter[0], -(e.pageY - boxCenter[1])) *
+            (180 / Math.PI);
+
+        box.css({ "-webkit-transform": "rotate(" + angle + "deg)" });
+        box.css({ "-moz-transform": "rotate(" + angle + "deg)" });
+        box.css({ transform: "rotate(" + angle + "deg)" });
+    });
+
+</script>
+
+</html>

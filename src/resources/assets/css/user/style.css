@@ -1,0 +1,110 @@
+.one-line-text {
+    white-space: nowrap;
+    overflow: clip;
+    text-overflow: ellipsis;
+    clear: both;
+}
+
+.responsive-border {
+    border-left: 1px solid #EBEEF1;
+}
+
+.avatar {
+    width: 28px;
+    height: 28px;
+    background-color: var(--bs-gray-200);
+}
+
+.avatar-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--bs-primary)
+}
+
+a.disabled,
+a.disabled i {
+    opacity: 60%;
+    cursor: unset !important;
+}
+
+.time-ctrl-btn {
+    opacity: 50%;
+}
+
+.edit-btn {
+    opacity: 0;
+}
+
+.time-ctrl-btn:hover, .time-ctrl-btn.active,
+.task-list:hover .edit-btn {
+    opacity: 1;
+}
+
+.ck-editor__editable:not(.ck-editor__nested-editable) {
+    min-height: 300px;
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+}
+
+.wide-text {
+    letter-spacing: 1px;
+}
+
+.break-all {
+    word-break: break-all;
+}
+
+.wrap-anywhere {
+    overflow-wrap: anywhere;
+}
+
+.wallet-status.table>:not(caption)>*>* {
+    border-bottom-width: 0 !important
+}
+
+pre {
+    margin-bottom: 0;
+}
+
+table .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.timeline-circle,
+.timeline-circle-2 {
+    border-left: 1px dashed #d4d4d4;
+}
+
+.timeline-circle-2:last-child {
+    border-color: transparent;
+}
+
+.timeline-circle::before,
+.timeline-circle-2::before {
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 9px;
+    background: #d4d4d4;
+    left: -5px;
+    border-radius: 5px;
+    top: 0;
+}
+
+.dropdown-toggle::after {
+    right: 8px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    height: .255em;
+}
+
+@media (max-width: 991.98px) {
+    .responsive-border {
+        border-color: transparen
+    }
+}

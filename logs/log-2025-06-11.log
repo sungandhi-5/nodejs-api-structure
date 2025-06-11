@@ -1,0 +1,104 @@
+[11/6/2025, 4:21:39 pm 842] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:21:39 pm 842] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:21:39 pm 864] : INFO :  Redis Client Connected 
+[11/6/2025, 4:21:39 pm 892] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:22:06 pm 354] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:22:06 pm 354] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:22:06 pm 375] : INFO :  Redis Client Connected 
+[11/6/2025, 4:22:06 pm 411] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:22:11 pm 840] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:22:11 pm 841] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:22:11 pm 861] : INFO :  Redis Client Connected 
+[11/6/2025, 4:22:11 pm 897] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:22:13 pm 78] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:22:13 pm 79] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:22:13 pm 98] : INFO :  Redis Client Connected 
+[11/6/2025, 4:22:13 pm 129] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:25:07 pm 194] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:25:07 pm 195] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:25:07 pm 215] : INFO :  Redis Client Connected 
+[11/6/2025, 4:25:07 pm 243] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:25:18 pm 543] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:25:18 pm 543] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:25:18 pm 565] : INFO :  Redis Client Connected 
+[11/6/2025, 4:25:18 pm 600] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:25:25 pm 817] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:25:25 pm 818] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:25:25 pm 837] : INFO :  Redis Client Connected 
+[11/6/2025, 4:25:25 pm 863] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:25:31 pm 367] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:25:31 pm 368] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:25:31 pm 386] : INFO :  Redis Client Connected 
+[11/6/2025, 4:25:31 pm 410] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:25:34 pm 276] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:25:34 pm 277] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:25:34 pm 296] : INFO :  Redis Client Connected 
+[11/6/2025, 4:25:34 pm 324] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:25:54 pm 656] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:25:54 pm 657] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:25:54 pm 676] : INFO :  Redis Client Connected 
+[11/6/2025, 4:25:54 pm 702] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:26:38 pm 581] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:26:38 pm 582] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:26:38 pm 600] : INFO :  Redis Client Connected 
+[11/6/2025, 4:26:38 pm 624] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:26:47 pm 270] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:26:47 pm 270] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:26:47 pm 289] : INFO :  Redis Client Connected 
+[11/6/2025, 4:26:47 pm 314] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:27:29 pm 377] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:27:29 pm 377] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:27:29 pm 396] : INFO :  Redis Client Connected 
+[11/6/2025, 4:27:29 pm 419] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:27:38 pm 650] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:27:38 pm 651] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:27:38 pm 670] : INFO :  Redis Client Connected 
+[11/6/2025, 4:27:38 pm 696] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:27:40 pm 985] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:27:40 pm 986] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:27:41 pm 4] : INFO :  Redis Client Connected 
+[11/6/2025, 4:27:41 pm 29] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:27:53 pm 684] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:27:53 pm 684] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:27:53 pm 704] : INFO :  Redis Client Connected 
+[11/6/2025, 4:27:53 pm 733] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:27:55 pm 252] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:27:55 pm 253] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:27:55 pm 272] : INFO :  Redis Client Connected 
+[11/6/2025, 4:27:55 pm 301] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:28:11 pm 96] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:28:11 pm 97] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:28:11 pm 115] : INFO :  Redis Client Connected 
+[11/6/2025, 4:28:11 pm 140] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:28:12 pm 793] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:28:12 pm 794] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:28:12 pm 812] : INFO :  Redis Client Connected 
+[11/6/2025, 4:28:12 pm 837] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:28:14 pm 885] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:28:14 pm 885] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:28:14 pm 904] : INFO :  Redis Client Connected 
+[11/6/2025, 4:28:14 pm 929] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:28:46 pm 846] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:28:46 pm 847] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:28:46 pm 869] : INFO :  Redis Client Connected 
+[11/6/2025, 4:28:46 pm 901] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:31:09 pm 467] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:31:09 pm 467] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:31:09 pm 486] : INFO :  Redis Client Connected 
+[11/6/2025, 4:31:09 pm 509] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:31:15 pm 244] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:31:15 pm 244] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:31:15 pm 262] : INFO :  Redis Client Connected 
+[11/6/2025, 4:31:15 pm 286] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:31:36 pm 367] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:31:36 pm 367] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:31:36 pm 387] : INFO :  Redis Client Connected 
+[11/6/2025, 4:31:36 pm 413] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:52:43 pm 771] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:52:43 pm 771] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:52:43 pm 795] : INFO :  Redis Client Connected 
+[11/6/2025, 4:52:43 pm 826] : INFO :  Database connected sucessfully 
+[11/6/2025, 4:52:45 pm 226] : INFO :  Server Running on PORT: 3008
+[11/6/2025, 4:52:45 pm 227] : INFO :  Server URL: http://localhost:3008/
+[11/6/2025, 4:52:45 pm 245] : INFO :  Redis Client Connected 
+[11/6/2025, 4:52:45 pm 270] : INFO :  Database connected sucessfully 

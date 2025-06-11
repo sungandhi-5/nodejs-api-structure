@@ -1,0 +1,159 @@
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Required meta tags -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <style type="text/css">
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    @media screen and (max-width: 575px) {
+      table {
+        table-layout: fixed;
+        width: auto !important;
+      }
+    }
+  </style>
+</head>
+
+<body style="background-color: rgb(239, 242, 245);" data-new-gr-c-s-check-loaded="14.1061.0" data-gr-ext-installed="">
+  <div class="wrapper" style="max-width: 550px;margin: 30px auto;">
+    <table style="width: 100%;text-align: center;margin-bottom: 20px;">
+      <tbody>
+        <tr>
+          <td>
+            <h4 style="font-size: 26px;font-weight: 400;color: #222;margin: 0px 0px 8px;">Hello!
+              <span style="font-weight: 600;"><%- data.invoice_name %></span>
+            </h4>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h3 style="font-size: 18px;font-weight: 500;line-height: 1.4;max-width: 300px;margin: 0px auto;color: #222;">Your
+              <span style="font-weight: 600;color: #f5a51d;">Invoice</span> Is Ready, Please Collect It.
+            </h3>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="mail-content" style="background-color: #fff;padding: 30px 30px;border-radius: 6px 6px 0px 0px;margin-top: 30px;">
+      <div class="" style="background-color: #fafafa;padding: 20px 20px;margin-bottom: 20px;">
+        <table class="from-box" style="width: 100%;">
+          <tbody>
+            <tr>
+              <td>
+                <h3 style="font-size: 15px;text-transform: uppercase;margin: 0px 0px 8px;">From :</h3>
+                <table style="width: 100%;">
+                  <tr>
+                    <td>
+                      <span style="margin-top: 0px;margin-bottom: 0px;font-size: 14px;line-height: 1.6;color: #222;"><%- data.merchant_name %></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><a rel="noopener noreferrer" style="font-weight: 600;color: #222;font-size: 14px;text-decoration: none; word-break: break-all;"><%- data.invoice.merchant[0].email %></a></td>
+                  </tr>
+                </table>
+              </td>
+              <td>
+                <h3 style="font-size: 15px;text-transform: uppercase;margin: 0px 0px 8px;">Summary :</h3>
+                <table style="width: 100%;">
+                  <tr>
+                    <td style="margin-top: 0px;margin-bottom: 0px;font-size: 14px;line-height: 1.6;color: #222; width: max-content;">Invoice Id: </td>
+                    <td><span style="color: #222;font-weight: 600;float: right;"> #<%- data.invoice.invoice_id %></span></td>
+                  </tr>
+                  <tr>
+                    <td style="margin-top: 0px;margin-bottom: 0px;font-size: 14px;line-height: 1.6;color: #222; width: max-content;">Date:</td>
+                    <td><span style="color: #222;font-weight: 600;float: right;"><%- data.invoice_created_at %></span></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <table>
+        <tbody>
+          <tr>
+            <td style="padding-bottom: 10px;font-size: 15px;line-height: 1.6;color: #222;">I hope you’re doing well.</td>
+          </tr>
+          <tr>
+            <td style="padding-bottom: 10px;font-size: 15px;line-height: 1.6;color: #222;">Kindly, check the attachment for the Invoice and confirm whether or not the details are correct.</td>
+          </tr>
+          <tr>
+            <td style="padding-bottom: 10px;font-size: 15px;line-height: 1.6;color: #222;">Please notify us as soon as possible if you have not requested or if you discover an error with the data that is mentioned.</td>
+          </tr>
+          <tr>
+            <td style="padding-bottom: 10px;font-size: 15px;line-height: 1.6;color: #222;">We hope you are satisfied with our service.</td>
+          </tr>
+          <tr>
+            <td style="padding-bottom: 10px;font-size: 15px;line-height: 1.6;color: #222;">
+              <b>Thank You!</b>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table style="margin-top: 20px;margin-bottom: 5px;border-top: 1px solid #eee;padding-top: 20px;">
+        <tbody>
+          <tr>
+            <td style="font-weight: 500;color: #888;font-size: 12px;padding-bottom: 8px;">Invoice Address</td>
+          </tr>
+          <tr>
+            <td>
+              <span style="font-weight: 600;color: #222;background-color: #fcfcfc;font-size: 13px;padding: 15px 15px;border: 1px dotted rgb(238 238 238 / 60%);word-break: break-word;display: block;"><%- data.invoice.address %></span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <% if(data.expire_on != null){ %>
+          <tr class="footer-list">
+            <td style="font-size: 13px;color: rgb(136, 136, 136);text-transform: capitalize;padding:  18px 0px;border-bottom: 1px solid rgb(238 238 238 / 50%);">Expiry Date
+              <span style="float: right;color: #222;font-weight: 600;"><%- data.expire_on %></span>
+            </td>
+          </tr>
+          <% } %>
+          <tr class="footer-list">
+            <td style="font-size: 13px;color: rgb(136, 136, 136);text-transform: capitalize;padding:  18px 0px;border-bottom: 1px solid rgb(238 238 238 / 50%);">Amount
+              <span style="float: right;color: #222;font-weight: 600;"><%- data.amount %>
+                <b style="color: #f5a51d;"><%- data.invoice.coin[0].short_name %></b>
+              </span>
+            </td>
+          </tr>
+          <tr class="footer-list">
+            <td style="font-size: 13px;color: rgb(136, 136, 136);text-transform: capitalize;padding:  18px 0px;border-bottom: 1px solid rgb(238 238 238 / 50%);">Total(<%- data.invoice.coin[0].short_name %>)
+              <span style="float: right;color: #222;font-weight: 600;"><%- data.pay_amount %>
+                <b style="color: #f5a51d;"><%- data.invoice.coin[0].short_name %></b>
+              </span>
+            </td>
+          </tr>
+          <tr class="footer-list">
+            <td style="font-size: 13px;color: rgb(136, 136, 136);text-transform: capitalize;padding:  18px 0px;border-bottom: 1px solid rgb(238 238 238 / 50%);">Conversion Rate
+              <span style="float: right;color: #222;font-weight: 600;"> 1
+                <b style="color: #f5a51d;"><%- data.invoice.coin[0].short_name %></b> = <%- data.conversion_rate %>
+                <b style="color: #f5a51d;">USD</b>
+              </span>
+            </td>
+          </tr>
+          <tr class="footer-list">
+            <td style="font-size: 13px;color: rgb(136, 136, 136);text-transform: capitalize;padding:  18px 0px 0px;">Total (USD)
+              <span style="float: right;color: #222;font-weight: 600;"><%- data.total_usd_amount %>
+                <b style="color: #f5a51d;">USD</b>
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="ue-sidebar-container"></div>
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+
+</html>
